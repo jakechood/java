@@ -1,34 +1,52 @@
 public class Calculator {
+//Create Calculator object   
   public Calculator(){
 
   }
+  // Addition
   public int add(int a, int b) {
     System.out.println(a + b);
     return a + b;
   }
+  // Subtraction
   public int subtract(int a, int b) {
     System.out.println(a - b);
     return a - b;
   }
+  // Multiplication
   public int multiply(int a, int b) {
     System.out.println(a * b);
     return a * b;
   }
+  // Division
   public int divide(int a, int b) {
     System.out.println(a / b);
     return a / b;
   }
+  // Remainder / Modulo
   public int modulo(int a, int b) {
     System.out.println(a % b);
     return a % b;
   }
 
+  // Main program implementation
   public static void main(String[] args) {
+    // Start Calculator instance
     Calculator myCalculator = new Calculator();
+
+    // Add two integers
     myCalculator.add(5, 7);
+
+    // Subtract first integer from second
     myCalculator.subtract(45, 11);
+
+    // Multiply integers by each other
     myCalculator.multiply(3, 6);
+
+    // Divide first integer by second
     myCalculator.divide(9, 3);
+
+    // Remainder of first integer divided by second
     myCalculator.modulo(12, 5);
   }
 }
