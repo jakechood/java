@@ -5,27 +5,27 @@ public class Calculator {
   }
   // Addition
   public int add(int a, int b) {
-    System.out.println(a + b);
+    // Testing System.out.println(a + b);
     return a + b;
   }
   // Subtraction
   public int subtract(int a, int b) {
-    System.out.println(a - b);
+    // Testing System.out.println(a - b);
     return a - b;
   }
   // Multiplication
   public int multiply(int a, int b) {
-    System.out.println(a * b);
+    // Testing System.out.println(a * b);
     return a * b;
   }
   // Division
   public int divide(int a, int b) {
-    System.out.println(a / b);
+    // Testing System.out.println(a / b);
     return a / b;
   }
   // Remainder / Modulo
   public int modulo(int a, int b) {
-    System.out.println(a % b);
+    // Testing System.out.println(a % b);
     return a % b;
   }
 
