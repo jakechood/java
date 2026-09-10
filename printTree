@@ -1,0 +1,14 @@
+// Define your tree class in this file!
+public class Tree {
+  public static void main(String[] args) {
+    // Introduce self
+    System.out.println("Hello! I'm Sleet.");
+    // Print tree to screen
+    System.out.println("|      ^      |");
+    System.out.println("|     / \\     |");
+    System.out.println("|    /   \\    |");
+    System.out.println("|   /     \\   |");
+    System.out.println("|      =      |");
+  }
+
+}
