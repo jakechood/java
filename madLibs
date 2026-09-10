@@ -1,0 +1,43 @@
+public class MadLibs {
+  /*
+  This program generates a mad libbed story.
+  Author: jakechood 
+  Date: 18 Aug 2026
+    */
+  public static void main(String[] args){
+    // Protagonist name
+    String name1 = "Joseph";
+    // Supporting Character name
+    String name2 = "Ashleigh";
+    // A character's feeling
+    String adjective1 = "large";
+    // Type of day
+    String adjective2 = "blue";
+    // Group name
+    String noun1 = "car";
+    // Something found in a store, multiple
+    String noun2 = "plate";
+    // Action, active form
+    String verb1 = "ran";
+    // Tribe, Choir, or Musical Group
+    String noun3 = "necklace";
+    // Object or person
+    String noun4 = "rose";
+    // Feeling, strong
+    String adjective3 = "cold";
+    // Location one can fly to
+    String place1 = "Romania";
+    // Fluid that can freeze
+    String noun5 = "cup";
+    // Year
+    int number = 2468;
+    // Technology, invention, or innovation object
+    String noun6 = "laptop";
+    
+    
+    //The template for the story
+    String story = "This morning "+name1+" woke up feeling "+adjective1+". 'It is going to be a "+adjective2+" day!' Outside, a bunch of "+noun1+"s were protesting to keep "+noun2+" in stores. They began to "+verb1+" to the rhythm of the "+noun3+", which made all the "+noun4+"s very "+adjective3+". Concerned, "+name1+" texted "+name2+", who flew "+name1+" to "+place1+" and dropped "+name1+" in a puddle of frozen "+noun5+". "+name1+" woke up in the year "+number+", in a world where "+noun6+"s ruled the world.";
+
+    System.out.println(story);
+  }       
+}
