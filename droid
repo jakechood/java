@@ -1,0 +1,41 @@
+// Define the class Droid
+public class Droid{
+  // Declare instance field called droidName of String type
+  String droidName;
+  // Declare instance field batteryLevel for whole numbers
+  int batteryLevel;
+  // Create constructor method for Droid class
+  public Droid(String thisName) {
+   // Assign parameter value to appropriate instance field
+    droidName = thisName;
+    // Set initial battery level to 100 for each new Droid instance
+    batteryLevel = 100;
+  }
+  // Define new method to perform task without return value
+  public void performTask(String task) {
+    // Print task status/performance statement 
+    System.out.println(this.droidName + " is performing task: " + task + ".");
+   // Tasks are hard work. After print statement, drop battery by 10
+    batteryLevel -= 10;
+  }
+  // toString method introducing droid
+  public String toString() {
+    // return introduction sentence
+    return "My name is " + droidName + ".";
+  }
+  // Report energy level
+  public void energyReport() {
+    System.out.println("Codey's battery is at " + this.batteryLevel + "%.");
+  }
+// Don't forget the main() method
+public static void main(String[] args) {
+  // Create a new droid named Codey
+  Droid codey = new Droid("Codey");
+  // Call for toString to introduce Codey
+  System.out.println(codey.toString());
+  // Have Codey dance
+  codey.performTask("dancing");
+  // Report Codey's energy level
+  codey.energyReport();
+}
+}
